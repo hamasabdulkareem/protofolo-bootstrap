@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+img{
+    width: 110px;
+    height: 90px;
+
+}
+.navbar{
+    background-color: #0C0809;
+    height: 16%;
+    opacity: .9;
+    margin-bottom: 7%;
+}
+
+.navbar-brand img{
+    width: 110px;
+    height: 90px;
+
+}
+.second-lyer{
+position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: .8;
+}
+  .carousel-inner img {
+    width: 100%;
+    height:100%;
+
+  }
+ .nav a{
+     color:#FFFFFF;
+ }
+.carousel-item{
+    height: 120vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+ .carousel-caption {
+     margin-bottom: 250px;
+ }
+ .jumbotron{
+    margin-bottom: 0px;
+    background-color: #FFFFFF;
+}
+.btn-primary{
+      border: none;
+    width: 100px;
+    background-color: #48C394;
+    color: #E7F3EF;
+}
+.bg-grey{
+    background-color: #F5F5F5;
+
+}
+.bg-grey h1{
+    margin-top: 3%;
+    margin-left: 2%;
+    color: #596685;
+}
+.bg-grey p{
+    margin-top: 1%;
+    margin-left: 2%;
+    color: #8489B9;
+}
+.bg-grey label{
+     color: #60708F;
+}
+.form{
+    margin: 2%;
+
+}
+.sub{
+     background-color: #299BE4;
+   width: 10%;
+     color: #FAFAFB;
+
+}
+
+
+
+.flip-card {
+    width: 25%;
+    height: 15em;
+     text-align: center;
+}
+
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+
+  color: black;
+}
+.flip-card-front img{
+    margin-top: 80px;
+}
+.flip-card-back {
+ background-color: #76CC97;
+  color: white;
+  transform: rotateY(180deg);
+
+}
+.flip-card-back h1{
+    text-align: center;
+}
+.html{
+  background-color: #E6E7E9;
+}
+.css{
+    background-color: #536579;
+}
+.php{
+    background-color: #FFF1D6;
+}
+
+.javascript{
+    background-color: #E45252;
+}
+.c{
+    background-color: #98D295;
+}
+.csh{
+    background-color: #282E3A;
+}
+.esp{
+    background-color: #FEE1B5;
+}
+.python{
+    background-color: #25B9E1;
+}
+.html2{
+  background-color: #A6A9B0;
+}
+.css2{
+    background-color: #AAB7C5;
+}
+.php2{
+    background-color: #FFD88A;
+}
+
+.javascript2{
+    background-color: #F7CACA;
+}
+.c2{
+    background-color: #AFDCAD;
+}
+.csh2{
+    background-color: #8D98B0;
+}
+.esp2{
+    background-color: #FCB54A;
+}
+.python2{
+    background-color: #9CDFF2;
+}
